@@ -29,6 +29,8 @@ for i in range(generating):
 
 
     # ---------- EMAIL ----------------
+    file.write("Email:  ")
+    
     email = ""
 
     nameIndex = random.randint(0, 499)    
